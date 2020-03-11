@@ -47,7 +47,7 @@ t = (1, 2, 5, 7, 99)
 print_tuple(t)  # Prints 1 2 5 7 99, one per line
 
 # Declare a tuple of 1 element then print it
-u = (1)  # What needs to be added to make this work?
-print_tuple(u,)
+u = (1, )  # What needs to be added to make this work?
+print_tuple(u)
 
 print(type(t), type(u))
