@@ -14,8 +14,11 @@ y = "7"
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE
-
+suminteger = lambda x,y: x + int(y)
+print(suminteger(x,y))
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+sumString = lambda x,y: str(x) + y 
+print(sumString(x,y))
